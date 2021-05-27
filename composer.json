@@ -1,0 +1,29 @@
+{
+    "name": "user/webrazrabotka",
+    "description": "description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dilianur",
+            "email": "dilianur.kanboto@gmail.com",
+            "homepage": "https://localhost:8080",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "dilianur0808@mail.ru"
+    },
+    "autoload": {
+        "files": [
+            "public/index.php"
+            
+        ]
+    },
+    "require": {
+        "slim/slim": "^4.8",
+        "slim/psr7": "^1.4",
+        "slim/http": "^1.2",
+        "slim/php-view": "^3.1",
+        "php-di/php-di": "^6.3"
+    }
+}
